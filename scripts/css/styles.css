@@ -1,0 +1,257 @@
+html, body {
+	margin : 0;
+	padding : 0;
+	clear : all;
+	font-family: "adobe-garamond-pro",sans-serif;
+	background : #222222;
+}
+
+.instructions {
+	text-align: center;
+	width : 250px;
+	color : #FFF;
+	display : block;
+	font-size : 12px;
+	margin : 15px auto;
+	padding : 0 0 0 340px;
+}
+
+.components {
+	width : 100%;
+	height : 42px;
+	background: #3ba790;
+	text-align: center;
+	padding : 3px;
+}
+
+.align-center {
+	text-align: center;
+	padding : 0 303px 0 0;
+} 
+
+
+.components-container {
+	position : relative;
+	display: inline-block;
+}
+
+.js-file-api {
+	width : 220px;
+	overflow: hidden;
+}
+
+.js-hidden-browse {
+	cursor: pointer;
+	margin : 0 0 0 -303px;
+	height	: 30px;
+}
+
+.browse-btn {
+	margin : 10px 0 0 10px;
+	float: left;
+	opacity: 0;
+	-moz-opacity: 0;
+	position : absolute;
+}
+
+
+.button {
+ 	color : #FFF;
+	margin : 10px 0 0 10px;
+	display : block;
+	width	: 70px;
+	height	: 19px;
+	background: #333333;
+	text-align: center;
+	padding: 5px 0 2px 0;
+	font-size : 15px;
+	float: left;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.button.active {
+	background: #FFF;
+	color : #40a68e;
+	cursor: pointer;
+}
+
+
+.meter { 
+	margin : 20% auto;
+	height: 2px;  /* Can be anything */
+	width : 500px;
+	background: #222222;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px;
+	-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+	-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+	box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.js-hidden {
+	display: none; 
+}
+
+.js-visible {
+	display : block;
+}
+
+
+/* --------------------------------[ SPINNER ]-------------------------------------*/
+
+
+.spinner {
+	margin : 20% auto;
+}
+
+#floatingCirclesG{
+position:relative;
+width:128px;
+height:128px;
+-webkit-transform:scale(0.6);
+-moz-transform:scale(0.6);
+-o-transform:scale(0.6);
+-ms-transform:scale(0.6);
+}
+
+.f_circleG{
+position:absolute;
+background-color:#222222;
+height:23px;
+width:23px;
+-moz-border-radius:12px;
+-webkit-border-radius:12px;
+border-radius:12px;
+-webkit-animation-name:f_fadeG;
+-webkit-animation-duration:0.8s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-moz-animation-name:f_fadeG;
+-moz-animation-duration:0.8s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-o-animation-name:f_fadeG;
+-o-animation-duration:0.8s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+-ms-animation-name:f_fadeG;
+-ms-animation-duration:0.8s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+}
+
+#frotateG_01{
+left:0;
+top:52px;
+-webkit-animation-delay:0.3s;
+-moz-animation-delay:0.3s;
+-o-animation-delay:0.3s;
+-ms-animation-delay:0.3s}
+
+#frotateG_02{
+left:15px;
+top:15px;
+-webkit-animation-delay:0.4s;
+-moz-animation-delay:0.4s;
+-o-animation-delay:0.4s;
+-ms-animation-delay:0.4s}
+
+#frotateG_03{
+left:52px;
+top:0;
+-webkit-animation-delay:0.5s;
+-moz-animation-delay:0.5s;
+-o-animation-delay:0.5s;
+-ms-animation-delay:0.5s;
+}
+
+#frotateG_04{
+right:15px;
+top:15px;
+-webkit-animation-delay:0.6s;
+-moz-animation-delay:0.6s;
+-o-animation-delay:0.6s;
+-ms-animation-delay:0.6s;
+}
+
+#frotateG_05{
+right:0;
+top:52px;
+-webkit-animation-delay:0.7s;
+-moz-animation-delay:0.7s;
+-o-animation-delay:0.7s;
+-ms-animation-delay:0.7s;
+}
+
+#frotateG_06{
+right:15px;
+bottom:15px;
+-webkit-animation-delay:0.8s;
+-moz-animation-delay:0.8s;
+-o-animation-delay:0.8s;
+-ms-animation-delay:0.8s;
+}
+
+#frotateG_07{
+left:52px;
+bottom:0;
+-webkit-animation-delay:0.9s;
+-moz-animation-delay:0.9s}
+
+#frotateG_08{
+left:15px;
+bottom:15px;
+-webkit-animation-delay:1s;
+-moz-animation-delay:1s;
+-o-animation-delay:0.9s;
+-ms-animation-delay:0.9s;
+}
+
+#frotateG_08{
+left:15px;
+bottom:15px;
+-webkit-animation-delay:1s;
+-moz-animation-delay:1s;
+-o-animation-delay:1s;
+-ms-animation-delay:1s;
+}
+
+@-webkit-keyframes f_fadeG{
+0%{
+background-color:#fd1377}
+
+100%{
+background-color:#222222}
+
+}
+
+@-moz-keyframes f_fadeG{
+0%{
+background-color:#fd1377}
+
+100%{
+background-color:#222222}
+
+}
+
+@-o-keyframes f_fadeG{
+0%{
+background-color:#fd1377}
+
+100%{
+background-color:#222222}
+
+}
+
+@-ms-keyframes f_fadeG{
+0%{
+background-color:#fd1377}
+
+100%{
+background-color:#222222}
+
+}
