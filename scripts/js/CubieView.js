@@ -516,7 +516,7 @@ define
 		function resliceImages( event )
 		{
 			EventManager.autoRemoveListener( window, "mouseup", resliceImages );
-			_slicedMaterials  = CubieCreator.slicedMaterials( true );
+			_slicedMaterials  = CubieCreator.slicedMaterials( false );
 		}
 		
 		/*
